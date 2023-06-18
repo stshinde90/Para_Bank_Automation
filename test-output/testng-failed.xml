@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Suite]">
+  <test thread-count="5" name="Update_Detail(failed)">
+    <classes>
+      <class name="bankAutomation.Para_Bank_Automation.EndToEnd_TestCase">
+        <methods>
+          <include name="teardown"/>
+          <include name="endToEndTest"/>
+          <include name="launchApplication"/>
+        </methods>
+      </class> <!-- bankAutomation.Para_Bank_Automation.EndToEnd_TestCase -->
+      <class name="bankAutomation.Para_Bank_Automation.UpdateContactInfo">
+        <methods>
+          <include name="submitAllInfo"/>
+          <include name="teardown"/>
+          <include name="updateContactDetails"/>
+          <include name="updateStateName"/>
+          <include name="launchApplication"/>
+        </methods>
+      </class> <!-- bankAutomation.Para_Bank_Automation.UpdateContactInfo -->
+    </classes>
+  </test> <!-- Update_Detail(failed) -->
+</suite> <!-- Failed suite [Suite] -->
